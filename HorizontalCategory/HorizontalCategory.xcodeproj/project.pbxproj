@@ -16,6 +16,12 @@
 		04AC0F9626085C6E00BCBB06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC0F9526085C6E00BCBB06 /* main.m */; };
 		04AC0FA026085C6F00BCBB06 /* HorizontalCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC0F9F26085C6F00BCBB06 /* HorizontalCategoryTests.m */; };
 		04AC0FAB26085C6F00BCBB06 /* HorizontalCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC0FAA26085C6F00BCBB06 /* HorizontalCategoryUITests.m */; };
+		04AC0FC626085CCD00BCBB06 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04AC0FBC26085CCD00BCBB06 /* 2.gif */; };
+		04AC0FC726085CCD00BCBB06 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AC0FBD26085CCD00BCBB06 /* 1.png */; };
+		04AC0FC826085CCD00BCBB06 /* HorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC0FC026085CCD00BCBB06 /* HorizontalLayout.m */; };
+		04AC0FC926085CCD00BCBB06 /* HomeCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC0FC226085CCD00BCBB06 /* HomeCategoryCell.m */; };
+		04AC0FCA26085CCD00BCBB06 /* HomeCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC0FC326085CCD00BCBB06 /* HomeCategoryView.m */; };
+		410E1F5274DF35F0BC121567 /* libPods-HorizontalCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30159A78E1BA6D8BD0B5A3A3 /* libPods-HorizontalCategory.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,17 @@
 		04AC0FA626085C6F00BCBB06 /* HorizontalCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AC0FAA26085C6F00BCBB06 /* HorizontalCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalCategoryUITests.m; sourceTree = "<group>"; };
 		04AC0FAC26085C6F00BCBB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AC0FBC26085CCD00BCBB06 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		04AC0FBD26085CCD00BCBB06 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		04AC0FBF26085CCD00BCBB06 /* HorizontalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalLayout.h; sourceTree = "<group>"; };
+		04AC0FC026085CCD00BCBB06 /* HorizontalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalLayout.m; sourceTree = "<group>"; };
+		04AC0FC226085CCD00BCBB06 /* HomeCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCategoryCell.m; sourceTree = "<group>"; };
+		04AC0FC326085CCD00BCBB06 /* HomeCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCategoryView.m; sourceTree = "<group>"; };
+		04AC0FC426085CCD00BCBB06 /* HomeCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCategoryCell.h; sourceTree = "<group>"; };
+		04AC0FC526085CCD00BCBB06 /* HomeCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCategoryView.h; sourceTree = "<group>"; };
+		30159A78E1BA6D8BD0B5A3A3 /* libPods-HorizontalCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HorizontalCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1D9B4AECA80EF33048FBAA /* Pods-HorizontalCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalCategory.release.xcconfig"; path = "Target Support Files/Pods-HorizontalCategory/Pods-HorizontalCategory.release.xcconfig"; sourceTree = "<group>"; };
+		FEB5AE17D94952A11871F0C0 /* Pods-HorizontalCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalCategory.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalCategory/Pods-HorizontalCategory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410E1F5274DF35F0BC121567 /* libPods-HorizontalCategory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +106,8 @@
 				04AC0F9E26085C6F00BCBB06 /* HorizontalCategoryTests */,
 				04AC0FA926085C6F00BCBB06 /* HorizontalCategoryUITests */,
 				04AC0F8126085C6D00BCBB06 /* Products */,
+				288375F1170AA553503982D6 /* Pods */,
+				24B5140541929620E7C28874 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +130,9 @@
 				04AC0F8726085C6D00BCBB06 /* SceneDelegate.m */,
 				04AC0F8926085C6D00BCBB06 /* ViewController.h */,
 				04AC0F8A26085C6D00BCBB06 /* ViewController.m */,
+				04AC0FBE26085CCD00BCBB06 /* HorizontalLayout */,
+				04AC0FBB26085CCD00BCBB06 /* Picture */,
+				04AC0FC126085CCD00BCBB06 /* View */,
 				04AC0F8C26085C6D00BCBB06 /* Main.storyboard */,
 				04AC0F8F26085C6E00BCBB06 /* Assets.xcassets */,
 				04AC0F9126085C6E00BCBB06 /* LaunchScreen.storyboard */,
@@ -137,6 +160,53 @@
 			path = HorizontalCategoryUITests;
 			sourceTree = "<group>";
 		};
+		04AC0FBB26085CCD00BCBB06 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				04AC0FBC26085CCD00BCBB06 /* 2.gif */,
+				04AC0FBD26085CCD00BCBB06 /* 1.png */,
+			);
+			path = Picture;
+			sourceTree = "<group>";
+		};
+		04AC0FBE26085CCD00BCBB06 /* HorizontalLayout */ = {
+			isa = PBXGroup;
+			children = (
+				04AC0FBF26085CCD00BCBB06 /* HorizontalLayout.h */,
+				04AC0FC026085CCD00BCBB06 /* HorizontalLayout.m */,
+			);
+			path = HorizontalLayout;
+			sourceTree = "<group>";
+		};
+		04AC0FC126085CCD00BCBB06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04AC0FC226085CCD00BCBB06 /* HomeCategoryCell.m */,
+				04AC0FC326085CCD00BCBB06 /* HomeCategoryView.m */,
+				04AC0FC426085CCD00BCBB06 /* HomeCategoryCell.h */,
+				04AC0FC526085CCD00BCBB06 /* HomeCategoryView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24B5140541929620E7C28874 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30159A78E1BA6D8BD0B5A3A3 /* libPods-HorizontalCategory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		288375F1170AA553503982D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEB5AE17D94952A11871F0C0 /* Pods-HorizontalCategory.debug.xcconfig */,
+				EA1D9B4AECA80EF33048FBAA /* Pods-HorizontalCategory.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04AC0FAF26085C6F00BCBB06 /* Build configuration list for PBXNativeTarget "HorizontalCategory" */;
 			buildPhases = (
+				372DBB092E766F0FD5B11092 /* [CP] Check Pods Manifest.lock */,
 				04AC0F7C26085C6D00BCBB06 /* Sources */,
 				04AC0F7D26085C6D00BCBB06 /* Frameworks */,
 				04AC0F7E26085C6D00BCBB06 /* Resources */,
@@ -242,6 +313,8 @@
 				04AC0F9326085C6E00BCBB06 /* LaunchScreen.storyboard in Resources */,
 				04AC0F9026085C6E00BCBB06 /* Assets.xcassets in Resources */,
 				04AC0F8E26085C6D00BCBB06 /* Main.storyboard in Resources */,
+				04AC0FC626085CCD00BCBB06 /* 2.gif in Resources */,
+				04AC0FC726085CCD00BCBB06 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,11 +334,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		372DBB092E766F0FD5B11092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HorizontalCategory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04AC0F7C26085C6D00BCBB06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AC0FC926085CCD00BCBB06 /* HomeCategoryCell.m in Sources */,
+				04AC0FCA26085CCD00BCBB06 /* HomeCategoryView.m in Sources */,
+				04AC0FC826085CCD00BCBB06 /* HorizontalLayout.m in Sources */,
 				04AC0F8B26085C6D00BCBB06 /* ViewController.m in Sources */,
 				04AC0F8526085C6D00BCBB06 /* AppDelegate.m in Sources */,
 				04AC0F9626085C6E00BCBB06 /* main.m in Sources */,
@@ -438,6 +539,7 @@
 		};
 		04AC0FB026085C6F00BCBB06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB5AE17D94952A11871F0C0 /* Pods-HorizontalCategory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +558,7 @@
 		};
 		04AC0FB126085C6F00BCBB06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1D9B4AECA80EF33048FBAA /* Pods-HorizontalCategory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

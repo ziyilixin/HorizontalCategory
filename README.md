@@ -1,2 +1,2 @@
 # HorizontalCategory
-水平CollectionView
+水平滚动CollectionView
